@@ -73,7 +73,37 @@ These vectorization techniques are fundamental for:
 - Text classification
 - Document similarity analysis
 - Information retrieval
-- Feature engineering for NLP models
+- Feature engineering for NLP
+
+### 5. Custom Text Classification
+Located in: `custom_classification/`
+
+This section focuses on implementing custom text classifiers using various machine learning approaches for different NLP tasks.
+
+Key implementations include:
+- **Traditional ML Classifiers**
+  - Support Vector Machines (SVM)
+  - Random Forest
+  - Naive Bayes
+  - Performance comparison across different algorithms
+
+- **Model Evaluation**
+  - Cross-validation techniques
+  - Confusion matrix analysis
+  - Precision, recall, and F1-score metrics
+  - ROC curves and AUC analysis
+
+- **Feature Engineering**
+  - Combining different vectorization techniques
+  - Custom feature extraction
+  - Feature selection methods
+  - Hyperparameter tuning
+
+Applications include:
+- Text categorization
+- Spam detection
+- Language identification
+- Topic classification
 
 ## Getting Started
 
