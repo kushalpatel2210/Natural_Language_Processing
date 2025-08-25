@@ -38,6 +38,19 @@ NER is the process of locating and classifying named entities (person names, org
 
 **Dataset**: `bbc_news.csv` - A collection of BBC news articles for analysis
 
+### 3. Sentiment Analysis
+Located in: `sentiment_analysis/`
+
+This folder contains implementation of sentiment analysis on book reviews dataset. Sentiment analysis, also known as opinion mining, is the process of determining the emotional tone or attitude expressed in text.
+
+The implementation demonstrates:
+- Text preprocessing for sentiment analysis
+- Sentiment scoring and classification
+- Analysis of sentiment polarity (positive, negative, neutral)
+- Interpretation of sentiment results
+
+**Dataset**: `book_reviews_sample.csv` - A collection of book reviews for sentiment analysis
+
 ## Getting Started
 
 Each folder contains Jupyter notebooks (`.ipynb` files) that demonstrate the implementation and analysis process. The notebooks are self-contained with detailed explanations and code comments.
