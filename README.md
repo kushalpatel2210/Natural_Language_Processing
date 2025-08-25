@@ -51,6 +51,30 @@ The implementation demonstrates:
 
 **Dataset**: `book_reviews_sample.csv` - A collection of book reviews for sentiment analysis
 
+### 4. Text Vectorization
+Located in: `vectorization/`
+
+This folder contains implementations of different text vectorization techniques that transform text data into numerical features for machine learning models.
+
+#### Implemented Techniques:
+1. **Bag of Words (BoW)**
+   - Converting text into numerical vectors based on word frequency
+   - Implementation using sklearn's CountVectorizer
+   - Demonstration of text-to-matrix transformation
+   - Analysis of word frequencies in documents
+
+2. **Term Frequency-Inverse Document Frequency (TF-IDF)**
+   - Advanced vectorization technique that considers word importance
+   - Implementation using sklearn's TfidfVectorizer
+   - Weighting terms based on their frequency and document occurrence
+   - Comparison with simple Bag of Words approach
+
+These vectorization techniques are fundamental for:
+- Text classification
+- Document similarity analysis
+- Information retrieval
+- Feature engineering for NLP models
+
 ## Getting Started
 
 Each folder contains Jupyter notebooks (`.ipynb` files) that demonstrate the implementation and analysis process. The notebooks are self-contained with detailed explanations and code comments.
